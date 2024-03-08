@@ -1,0 +1,44 @@
+.hero-gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20%;
+}
+
+.hero-gallery img {
+  max-width: 150px;
+  max-height: 300px;
+}
+
+/* .heroImg1-and-2 {
+  position: relative;
+}
+.heroImg1-div {
+  position: absolute;
+  top: 85%;
+  left: 30%;
+} */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 900px) {
+  .hero-gallery {
+    /* width: 1100px; */
+
+    margin-top: 25%;
+  }
+  .hero-gallery img {
+    max-width: 500px;
+    max-height: 400px;
+  }
+  .heroImg1-and-2 {
+    position: relative;
+  }
+  .heroImg1-div {
+    position: absolute;
+    top: -42%;
+    left: 25%;
+  }
+}

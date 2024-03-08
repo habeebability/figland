@@ -1,0 +1,22 @@
+.hero-container {
+  background-color: #181818;
+  color: #fff;
+}
+.heading-primary {
+  font-weight: initial;
+  font-size: initial;
+}
+.primary {
+  background-color: #4452fe;
+}
+
+.button-group {
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-primary {
+    font-weight: 500;
+    font-size: 4rem;
+  }
+}

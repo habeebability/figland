@@ -1,0 +1,38 @@
+.features-div {
+  background-color: #181818;
+}
+.feat-span {
+  display: initial;
+}
+
+.feat-Img {
+  height: 100vh;
+}
+
+.feat1Img {
+  margin-top: 4rem;
+}
+.feat2Img {
+  display: none;
+  position: absolute;
+  top: 187%;
+  left: 0%;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .feat1Img {
+    margin-top: initial;
+  }
+  .feat2Img {
+    position: absolute;
+    top: 220%;
+    left: 25%;
+    overflow: initial;
+    width: initial;
+  }
+  .feat-span {
+    display: block;
+  }
+}
